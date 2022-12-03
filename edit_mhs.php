@@ -28,8 +28,14 @@
                 <tr>
                     <td>Jenis Kelamin</td>
                     <td>
-                        <input type="radio" name="jk" value="L">Laki-Laki
-                        <input type="radio" name="jk" Value="P">Perempuan
+                        <?php if ($d['jk'] == 'L') {
+                        echo '<input type="radio" name="jk" value="L" checked="checked">Laki-Laki';
+                        echo '<input type="radio" name="jk" value="P"> Perempuan';
+                    } else {
+                        echo '<input type="radio" name="jk" value="L">Laki-Laki';
+                        echo '<input type="radio" name="jk" value="P" checked="checked">Perempuan';
+                    }
+                    ?>
                     </td>
                 </tr>
                 <tr>

@@ -11,7 +11,7 @@
         <h3>Data-Data Mahasiswa yang berhasil di Simpan</h3>
         <a href="index.php">Tambah Data Mahasiswa</a>
         <table border="1" cellspacing="0" width="50%">
-            <tr>
+            <tr>mayan
                 <th>No.</th>
                 <th>NIM</th>
                 <th>Nama Mahasiswa</th>
